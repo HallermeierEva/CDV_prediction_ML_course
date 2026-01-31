@@ -58,26 +58,8 @@ cvd_prediction_project/
 │   ├── xgboost_model.py          # XGBoost model
 │   └── visualization.py          # Visualization module
 │
-├── results/                       # Results directory
-│   ├── models/                   # Saved models
-│   │   ├── logistic_regression_model.pkl
-│   │   ├── xgboost_model.pkl
-│   │   └── scaler.pkl
-│   │
-│   ├── metrics/                  # Evaluation metrics
-│   │   ├── logistic_regression_results.json
-│   │   ├── xgboost_results.json
-│   │   └── feature_info.json
-│   │
-│   └── figures/                  # Visualizations
-│       ├── roc_curve_comparison.png
-│       ├── pr_curve_comparison.png
-│       ├── confusion_matrices.png
-│       ├── feature_importance_comparison.png
-│       ├── metrics_comparison.png
-│       └── metrics_comparison_table.csv
 │
-├── notebooks/                     # Jupyter notebooks (optional)
+├── notebooks 1 -5                     
 │
 ├── main.py                       # Main execution script
 ├── requirements.txt              # Python dependencies
@@ -240,8 +222,6 @@ Generates publication-quality figures:
 | Metric            | Logistic Regression | XGBoost | Improvement |
 |-------------------|--------------------:|--------:|------------:|
 | **AUC-ROC**       | 0.7922             | 0.8019  | +0.0097     |
-| **Accuracy**      | 0.7288             | 0.7305  | +0.0017     |
-| **Precision**     | 0.7564             | 0.7532  | -0.0032     |
 | **Recall**        | 0.6686             | 0.6873  | +0.0187     |
 | **F1-Score**      | 0.7083             | 0.7175  | +0.0092     |
 
